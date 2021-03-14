@@ -12,7 +12,6 @@ function Navbar() {
         <div className="header">
             <div className="logo">
                 <img src={Logo} />
-                <h3>MeoW</h3>
             </div>
             <div className="items">
                 <ul>

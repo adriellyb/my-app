@@ -27,13 +27,6 @@
     width: 5vw;
 }
 
-.logo h3 {
-    padding-left: 15px;
-    letter-spacing: 2px;
-    font-size: 22px;
-    font-weight: lighter;
-}
-
 .items ul {
     list-style: none;
     display: flex;
@@ -44,7 +37,7 @@
 .items li, .items button {
     padding: 0 1vw;
     text-decoration: none;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 a { 
@@ -62,7 +55,7 @@ a:hover {
     border-radius: 15px;
     border: transparent;
     background: linear-gradient(120deg, #FC5C7D,#6A82FB);
-    font-weight: bold;
+    margin-left: 5px;
     cursor: pointer;
     font-size: 16px;
     opacity: 0.8;
