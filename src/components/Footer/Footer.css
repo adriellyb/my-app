@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;     
+    box-sizing: border-box;
+    color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif
+}
+
+.footer {
+    width: 100%;
+    background-color: #1f2030;
+    padding: 2vh 3vw;
+}
+
+.footer h3 {
+    letter-spacing: 3px;
+    margin: 20px 0;
+}
+
+.networks {
+    margin: 20px 0;
+}
+
+.networks img {
+    width: 2vw;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.footer h6 {
+    font-weight: normal;
+    margin: 20px 0;
+}
