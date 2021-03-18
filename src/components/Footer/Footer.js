@@ -16,10 +16,10 @@ function Footer() {
             <div className="footer">
                 <h3>Meow App</h3>
                 <div className = "networks">
-                    <a><img src = {Github} /></a>
-                    <a><img src = {Facebook} /></a>
-                    <a><img src = {Instagram} /></a>
-                    <a><img src = {Twitter} /></a>
+                    <a href="#"><img src = {Github} /></a>
+                    <a href="#"><img src = {Facebook} /></a>
+                    <a href="#"><img src = {Instagram} /></a>
+                    <a href="#"><img src = {Twitter} /></a>
                 </div>
                 <h6>Todos os direitos reservados. © 2021 Copyright Meow App</h6>
             </div>

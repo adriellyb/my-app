@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.header {
+#header {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -52,12 +52,12 @@ a:hover {
 .items button {
     height: 4.5vh;
     width: 120%;
-    border-radius: 15px;
+    border-radius: 5px;
     border: transparent;
-    background: linear-gradient(120deg, #FC5C7D,#6A82FB);
+    background: linear-gradient(120deg, #355C7D, #6C5B7B, #C06C84);
     margin-left: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     opacity: 0.8;
 }
 

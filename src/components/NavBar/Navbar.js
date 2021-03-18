@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 /** import css */
 import './Navbar.css';
@@ -9,16 +9,16 @@ import Logo from '../../assets/rbw2.png';
 
 function Navbar() {
     return(
-        <div className="header">
+        <div id="header">
             <div className="logo">
-                <img src={Logo} />
+                <img src={Logo} alt="rainbow"/>
             </div>
             <div className="items">
                 <ul>
                     <a href="/"><li>Home</li></a>
                     <a href="/"><li>About</li></a>
                     <a href="/"><li>Contact</li></a>
-                    <button>Download</button>
+                    <button>DOWNLOAD</button>
                 </ul>
             </div>
         </div>
